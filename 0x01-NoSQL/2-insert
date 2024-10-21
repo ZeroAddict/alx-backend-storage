@@ -1,0 +1,4 @@
+// nosql script inserts a document in the school collection.
+// The document MUST possess one attribute name with value “Holberton school”
+// The database name is passed as option of mongo db.name.insert({name: "string-value"}) command
+db.school.insert({name: "Holberton school"});

@@ -1,0 +1,3 @@
+// nosql script displays the no. of documents in the collection school
+// The db name is passed as an option of command method .find().count()
+db.school.find().count();
