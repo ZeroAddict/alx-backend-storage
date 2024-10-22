@@ -1,0 +1,3 @@
+//script deletes all documents with target value: name="Holberton school" in collection school.
+//The db name is passed as a method option of mongo command.
+db.school.deleteMany({name: "Holberton school"});
