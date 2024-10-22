@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Improved log stats module"""
+"""Improved log stats module """
 from pymongo import MongoClient
 
 
